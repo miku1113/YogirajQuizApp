@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D14DB6EE2EBA7D3300914BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB6ED2EBA7D3300914BDE /* AppDelegate.swift */; };
-		D14DB6F02EBA7D3300914BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB6EF2EBA7D3300914BDE /* SceneDelegate.swift */; };
 		D14DB6F22EBA7D3300914BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB6F12EBA7D3300914BDE /* ViewController.swift */; };
 		D14DB6F52EBA7D3300914BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14DB6F32EBA7D3300914BDE /* Main.storyboard */; };
 		D14DB6F72EBA7D3500914BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14DB6F62EBA7D3500914BDE /* Assets.xcassets */; };
@@ -16,6 +15,13 @@
 		D14DB7052EBA7D3600914BDE /* YogirajQuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB7042EBA7D3600914BDE /* YogirajQuizAppTests.swift */; };
 		D14DB70F2EBA7D3600914BDE /* YogirajQuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB70E2EBA7D3600914BDE /* YogirajQuizAppUITests.swift */; };
 		D14DB7112EBA7D3600914BDE /* YogirajQuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB7102EBA7D3600914BDE /* YogirajQuizAppUITestsLaunchTests.swift */; };
+		D14DB71E2EBA7EB300914BDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB71D2EBA7EB300914BDE /* HomeViewController.swift */; };
+		D14DB7202EBA7F4500914BDE /* QuizMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB71F2EBA7F4500914BDE /* QuizMenuViewController.swift */; };
+		D14DB7222EBA7F5D00914BDE /* QuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB7212EBA7F5D00914BDE /* QuizQuestionViewController.swift */; };
+		D14DB7242EBA7F7500914BDE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB7232EBA7F7500914BDE /* SettingsViewController.swift */; };
+		D14DB7262EBA841A00914BDE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14DB7252EBA841A00914BDE /* ResultViewController.swift */; };
+		D14DB72B2EBA870800914BDE /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D14DB7292EBA870800914BDE /* background.jpg */; };
+		D14DB72C2EBA870800914BDE /* construction.png in Resources */ = {isa = PBXBuildFile; fileRef = D14DB72A2EBA870800914BDE /* construction.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		D14DB6EA2EBA7D3300914BDE /* YogirajQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogirajQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DB6ED2EBA7D3300914BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D14DB6EF2EBA7D3300914BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D14DB6F12EBA7D3300914BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D14DB6F42EBA7D3300914BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14DB6F62EBA7D3500914BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		D14DB70A2EBA7D3600914BDE /* YogirajQuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogirajQuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14DB70E2EBA7D3600914BDE /* YogirajQuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogirajQuizAppUITests.swift; sourceTree = "<group>"; };
 		D14DB7102EBA7D3600914BDE /* YogirajQuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogirajQuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D14DB71D2EBA7EB300914BDE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D14DB71F2EBA7F4500914BDE /* QuizMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMenuViewController.swift; sourceTree = "<group>"; };
+		D14DB7212EBA7F5D00914BDE /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
+		D14DB7232EBA7F7500914BDE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D14DB7252EBA841A00914BDE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D14DB7292EBA870800914BDE /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
+		D14DB72A2EBA870800914BDE /* construction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = construction.png; path = ../../../Downloads/construction.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				D14DB6ED2EBA7D3300914BDE /* AppDelegate.swift */,
-				D14DB6EF2EBA7D3300914BDE /* SceneDelegate.swift */,
 				D14DB6F12EBA7D3300914BDE /* ViewController.swift */,
 				D14DB6F32EBA7D3300914BDE /* Main.storyboard */,
 				D14DB6F62EBA7D3500914BDE /* Assets.xcassets */,
+				D14DB7292EBA870800914BDE /* background.jpg */,
+				D14DB72A2EBA870800914BDE /* construction.png */,
 				D14DB6F82EBA7D3500914BDE /* LaunchScreen.storyboard */,
 				D14DB6FB2EBA7D3500914BDE /* Info.plist */,
+				D14DB71D2EBA7EB300914BDE /* HomeViewController.swift */,
+				D14DB71F2EBA7F4500914BDE /* QuizMenuViewController.swift */,
+				D14DB7212EBA7F5D00914BDE /* QuizQuestionViewController.swift */,
+				D14DB7232EBA7F7500914BDE /* SettingsViewController.swift */,
+				D14DB7252EBA841A00914BDE /* ResultViewController.swift */,
 			);
 			path = YogirajQuizApp;
 			sourceTree = "<group>";
@@ -231,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14DB72C2EBA870800914BDE /* construction.png in Resources */,
 				D14DB6FA2EBA7D3500914BDE /* LaunchScreen.storyboard in Resources */,
+				D14DB72B2EBA870800914BDE /* background.jpg in Resources */,
 				D14DB6F72EBA7D3500914BDE /* Assets.xcassets in Resources */,
 				D14DB6F52EBA7D3300914BDE /* Main.storyboard in Resources */,
 			);
@@ -260,7 +280,11 @@
 			files = (
 				D14DB6F22EBA7D3300914BDE /* ViewController.swift in Sources */,
 				D14DB6EE2EBA7D3300914BDE /* AppDelegate.swift in Sources */,
-				D14DB6F02EBA7D3300914BDE /* SceneDelegate.swift in Sources */,
+				D14DB7262EBA841A00914BDE /* ResultViewController.swift in Sources */,
+				D14DB7242EBA7F7500914BDE /* SettingsViewController.swift in Sources */,
+				D14DB7222EBA7F5D00914BDE /* QuizQuestionViewController.swift in Sources */,
+				D14DB71E2EBA7EB300914BDE /* HomeViewController.swift in Sources */,
+				D14DB7202EBA7F4500914BDE /* QuizMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +465,9 @@
 				INFOPLIST_FILE = YogirajQuizApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,9 +492,9 @@
 				INFOPLIST_FILE = YogirajQuizApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
